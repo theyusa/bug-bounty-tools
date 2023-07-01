@@ -1,6 +1,6 @@
 # Awesome Bug Bounty Tools
 
-> Çeşitli bug bounty araçlarının derlenmiş bir listesi
+> Çeşitli bug bounty araçlarının Türkçe açıklamaları ile derlenmiş bir listesi
 
 ## Contents
 
