@@ -1,4 +1,4 @@
-# Awesome Bug Bounty Tools
+# Awesome Bug Bounty Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > Çeşitli bug bounty araçlarının Türkçe açıklamaları ile derlenmiş bir listesi
 
