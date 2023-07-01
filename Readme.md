@@ -92,52 +92,52 @@
 
 ### Screenshots
 
-- [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) - EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.
-- [aquatone](https://github.com/michenriksen/aquatone) - Aquatone is a tool for visual inspection of websites across a large amount of hosts and is convenient for quickly gaining an overview of HTTP-based attack surface.
-- [screenshoteer](https://github.com/vladocar/screenshoteer) - Make website screenshots and mobile emulations from the command line.
-- [gowitness](https://github.com/sensepost/gowitness) - gowitness - a golang, web screenshot utility using Chrome Headless
-- [WitnessMe](https://github.com/byt3bl33d3r/WitnessMe) - Web Inventory tool, takes screenshots of webpages using Pyppeteer (headless Chrome/Chromium) and provides some extra bells & whistles to make life easier.
-- [eyeballer](https://github.com/BishopFox/eyeballer) - Convolutional neural network for analyzing pentest screenshots
-- [scrying](https://github.com/nccgroup/scrying) - A tool for collecting RDP, web and VNC screenshots all in one place
-- [Depix](https://github.com/beurtschipper/Depix) - Recovers passwords from pixelized screenshots
-- [httpscreenshot](https://github.com/breenmachine/httpscreenshot/) - HTTPScreenshot is a tool for grabbing screenshots and HTML of large numbers of websites.
+- [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) - EyeWitness, web sitelerinin ekran görüntülerini almak, bazı sunucu başlık bilgileri sağlamak ve mümkünse varsayılan kimlik bilgilerini belirlemek için tasarlanmıştır.
+- [aquatone](https://github.com/michenriksen/aquatone) - Aquatone, çok sayıda ana bilgisayarda web sitelerinin görsel olarak incelenmesine yönelik bir araçtır ve HTTP tabanlı saldırı yüzeyine hızlı bir şekilde genel bakış elde etmek için uygundur.
+- [screenshoteer](https://github.com/vladocar/screenshoteer) - Komut satırından web sitesi ekran görüntüleri ve mobil emülasyonlar oluşturun.
+- [gowitness](https://github.com/sensepost/gowitness) - gowitness - Chrome Headless kullanan bir golang, web ekran görüntüsü yardımcı programı
+- [WitnessMe](https://github.com/byt3bl33d3r/WitnessMe) - Web Envanteri aracı, Pyppeteer (headless Chrome/Chromium) kullanarak web sayfalarının ekran görüntülerini alır ve hayatı kolaylaştırmak için bazı ekstra özellikler sağlar.
+- [eyeballer](https://github.com/BishopFox/eyeballer) - Pentest ekran görüntülerini analiz etmek için evrişimli sinir ağı
+- [scrying](https://github.com/nccgroup/scrying) - RDP, web ve VNC ekran görüntülerini tek bir yerde toplamak için bir araç
+- [Depix](https://github.com/beurtschipper/Depix) - Parolaları pikselleştirilmiş ekran görüntülerinden kurtarır
+- [httpscreenshot](https://github.com/breenmachine/httpscreenshot/) - HTTPScreenshot, çok sayıda web sitesinin ekran görüntülerini ve HTML'sini almak için kullanılan bir araçtır.
 
 ### Technologies
 
-- [wappalyzer](https://github.com/AliasIO/wappalyzer) - Identify technology on websites.
-- [webanalyze](https://github.com/rverton/webanalyze) - Port of Wappalyzer (uncovers technologies used on websites) to automate mass scanning.
-- [python-builtwith](https://github.com/claymation/python-builtwith) - BuiltWith API client
-- [whatweb](https://github.com/urbanadventurer/whatweb) - Next generation web scanner
-- [retire.js](https://github.com/RetireJS/retire.js) - scanner detecting the use of JavaScript libraries with known vulnerabilities
-- [httpx](https://github.com/projectdiscovery/httpx) - httpx is a fast and multi-purpose HTTP toolkit allows to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads.
-- [fingerprintx](https://github.com/praetorian-inc/fingerprintx) - fingerprintx is a standalone utility for service discovery on open ports that works well with other popular bug bounty command line tools.
+- [wappalyzer](https://github.com/AliasIO/wappalyzer) - Web sitelerindeki teknolojiyi tanımlayın.
+- [webanalyze](https://github.com/rverton/webanalyze) - Toplu taramayı otomatikleştirmek için Wappalyzer Limanı (web sitelerinde kullanılan teknolojileri ortaya çıkarır)
+- [python-builtwith](https://github.com/claymation/python-builtwith) - BuildWith API istemcisi
+- [whatweb](https://github.com/urbanadventurer/whatweb) - Yeni nesil web tarayıcı
+- [retire.js](https://github.com/RetireJS/retire.js) - bilinen güvenlik açıklarına sahip JavaScript kitaplıklarının kullanımını algılayan tarayıcı
+- [httpx](https://github.com/projectdiscovery/httpx) - httpx hızlı ve çok amaçlı bir HTTP araç takımıdır, retryablehttp kitaplığını kullanarak birden çok prob çalıştırılmasına izin verir, artan iş parçacığı ile sonuç güvenilirliğini korumak için tasarlanmıştır.
+- [fingerprintx](https://github.com/praetorian-inc/fingerprintx) - parmak izix, diğer popüler bug bounty komut satırı araçlarıyla iyi çalışan, açık bağlantı noktalarında hizmet keşfi için bağımsız bir yardımcı programdır.
 
 ### Content Discovery
 
-- [gobuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go
-- [recursebuster](https://github.com/C-Sto/recursebuster) - rapid content discovery tool for recursively querying webservers, handy in pentesting and web application assessments
-- [feroxbuster](https://github.com/epi052/feroxbuster) - A fast, simple, recursive content discovery tool written in Rust.
-- [dirsearch](https://github.com/maurosoria/dirsearch) - Web path scanner
-- [dirsearch](https://github.com/evilsocket/dirsearch) - A Go implementation of dirsearch.
-- [filebuster](https://github.com/henshin/filebuster) - An extremely fast and flexible web fuzzer
-- [dirstalk](https://github.com/stefanoj3/dirstalk) - Modern alternative to dirbuster/dirb
-- [dirbuster-ng](https://github.com/digination/dirbuster-ng) - dirbuster-ng is C CLI implementation of the Java dirbuster tool
-- [gospider](https://github.com/jaeles-project/gospider) - Gospider - Fast web spider written in Go
-- [hakrawler](https://github.com/hakluke/hakrawler) - Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
-- [crawley](https://github.com/s0rg/crawley) - fast, feature-rich unix-way web scraper/crawler written in Golang.
-
+- [gobuster](https://github.com/OJ/gobuster) - Go'da yazılmış Dizin/Dosya, DNS ve VHost bozma aracı
+- [recursebuster](https://github.com/C-Sto/recursebuster) - web sunucularını yinelemeli olarak sorgulamak için hızlı içerik keşif aracı, sızma testi ve web uygulaması değerlendirmelerinde kullanışlıdır
+- [feroxbuster](https://github.com/epi052/feroxbuster) - Rust'ta yazılmış hızlı, basit, özyinelemeli bir içerik keşif aracı.
+- [dirsearch](https://github.com/maurosoria/dirsearch) - Web yolu tarayıcı
+- [dirsearch](https://github.com/evilsocket/dirsearch) - dirsearch'ın Go uygulaması.
+- [filebuster](https://github.com/henshin/filebuster) - Son derece hızlı ve esnek bir web fuzzer
+- [dirstalk](https://github.com/stefanoj3/dirstalk) - Dirbuster/dirb'e modern alternatif
+- [dirbuster-ng](https://github.com/digination/dirbuster-ng) - dirbuster-ng, Java dirbuster aracının C CLI uygulamasıdır
+- [gospider](https://github.com/jaeles-project/gospider) - Gospider - Go ile yazılmış hızlı web örümceği
+- [hakrawler](https://github.com/hakluke/hakrawler) - Bir web uygulamasında uç noktaların ve varlıkların kolay ve hızlı bir şekilde keşfedilmesi için tasarlanmış basit, hızlı web gezgini
+- [crawley](https://github.com/s0rg/crawley) - Golang'da yazılmış hızlı, zengin özelliklere sahip unix-way web kazıyıcı/gezgin.
+  
 ### Links
 
-- [LinkFinder](https://github.com/GerbenJavado/LinkFinder) - A python script that finds endpoints in JavaScript files
-- [JS-Scan](https://github.com/zseano/JS-Scan) - a .js scanner, built in php. designed to scrape urls and other info
+- [LinkFinder](https://github.com/GerbenJavado/LinkFinder) - JavaScript dosyalarında uç noktaları bulan bir python betiği
+- [JS-Scan](https://github.com/zseano/JS-Scan) - php'de yerleşik bir .js tarayıcı. url'leri ve diğer bilgileri kazımak için tasarlanmıştır
 - [LinksDumper](https://github.com/arbazkiraak/LinksDumper) - Extract (links/possible endpoints) from responses & filter them via decoding/sorting
-- [GoLinkFinder](https://github.com/0xsha/GoLinkFinder) - A fast and minimal JS endpoint extractor
-- [BurpJSLinkFinder](https://github.com/InitRoot/BurpJSLinkFinder) - Burp Extension for a passive scanning JS files for endpoint links.
-- [urlgrab](https://github.com/IAmStoxe/urlgrab) - A golang utility to spider through a website searching for additional links.
-- [waybackurls](https://github.com/tomnomnom/waybackurls) - Fetch all the URLs that the Wayback Machine knows about for a domain
-- [gau](https://github.com/lc/gau) - Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.
-- [getJS](https://github.com/003random/getJS) -  A tool to fastly get all javascript sources/files
-- [linx](https://github.com/riza/linx) - Reveals invisible links within JavaScript files
+- [GoLinkFinder](https://github.com/0xsha/GoLinkFinder) - Hızlı ve minimal bir JS uç nokta çıkarıcı
+- [BurpJSLinkFinder](https://github.com/InitRoot/BurpJSLinkFinder) - Uç nokta bağlantıları için pasif tarama JS dosyaları için Burp Uzantısı.
+- [urlgrab](https://github.com/IAmStoxe/urlgrab) -Ek bağlantılar arayan bir web sitesinde gezinmek için bir golang yardımcı programı.
+- [waybackurls](https://github.com/tomnomnom/waybackurls) - Wayback Machine'in bir etki alanı için bildiği tüm URL'leri getirin
+- [gau](https://github.com/lc/gau) - AlienVault'un Open Threat Exchange, Wayback Machine ve Common Crawl'dan bilinen URL'leri alın.
+- [getJS](https://github.com/003random/getJS) -  Tüm javascript kaynaklarını/dosyalarını hızlı bir şekilde almak için bir araç
+- [linx](https://github.com/riza/linx) - JavaScript dosyalarındaki görünmez bağlantıları ortaya çıkarır
 
 ### Parameters
 
