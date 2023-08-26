@@ -139,351 +139,364 @@
 - [getJS](https://github.com/003random/getJS) -  Tüm javascript kaynaklarını/dosyalarını hızlı bir şekilde almak için bir araç
 - [linx](https://github.com/riza/linx) - JavaScript dosyalarındaki görünmez bağlantıları ortaya çıkarır
 
-### Parameters
+### Parametreler
 
-- [parameth](https://github.com/maK-/parameth) - This tool can be used to brute discover GET and POST parameters
-- [param-miner](https://github.com/PortSwigger/param-miner) - This extension identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities.
-- [ParamPamPam](https://github.com/Bo0oM/ParamPamPam) - This tool for brute discover GET and POST parameters.
-- [Arjun](https://github.com/s0md3v/Arjun) - HTTP parameter discovery suite.
-- [ParamSpider](https://github.com/devanshbatham/ParamSpider) - Mining parameters from dark corners of Web Archives.
-- [x8](https://github.com/Sh1Yo/x8) - Hidden parameters discovery suite written in Rust.
+- [parameth](https://github.com/maK-/parameth) - Bu araç, GET ve POST parametrelerini brute force yöntemiyle keşfetmek için kullanılabilir.
+- [param-miner](https://github.com/PortSwigger/param-miner) - Bu eklenti gizli, bağlantısız parametreleri tanımlar. Özellikle web önbellek zehirleme zafiyetlerini bulmak için kullanışlıdır.
+- [ParamPamPam](https://github.com/Bo0oM/ParamPamPam) - Bu araç, GET ve POST parametrelerini brute force yöntemiyle keşfetmek için kullanılır.
+- [Arjun](https://github.com/s0md3v/Arjun) - HTTP parametre keşif paketi.
+- [ParamSpider](https://github.com/devanshbatham/ParamSpider) - Web Arşivlerinin karanlık köşelerinden parametreleri çıkarmak için kullanılır.
+- [x8](https://github.com/Sh1Yo/x8) - Rust diliyle yazılmış gizli parametre keşif paketi.
 
 ### Fuzzing
 
-- [wfuzz](https://github.com/xmendez/wfuzz) - Web application fuzzer
-- [ffuf](https://github.com/ffuf/ffuf) -  Fast web fuzzer written in Go
-- [fuzzdb](https://github.com/fuzzdb-project/fuzzdb) - Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.
-- [IntruderPayloads](https://github.com/1N3/IntruderPayloads) - A collection of Burpsuite Intruder payloads, BurpBounty payloads, fuzz lists, malicious file uploads and web pentesting methodologies and checklists.
-- [fuzz.txt](https://github.com/Bo0oM/fuzz.txt) - Potentially dangerous files
-- [fuzzilli](https://github.com/googleprojectzero/fuzzilli) - A JavaScript Engine Fuzzer
-- [fuzzapi](https://github.com/Fuzzapi/fuzzapi) - Fuzzapi is a tool used for REST API pentesting and uses API_Fuzzer gem
-- [qsfuzz](https://github.com/ameenmaali/qsfuzz) - qsfuzz (Query String Fuzz) allows you to build your own rules to fuzz query strings and easily identify vulnerabilities.
-- [vaf](https://github.com/d4rckh/vaf) - very advanced (web) fuzzer written in Nim.
+- [wfuzz](https://github.com/xmendez/wfuzz) - Web uygulama fuzzlayıcı
+- [ffuf](https://github.com/ffuf/ffuf) - Go diliyle yazılmış hızlı web fuzzlayıcı
+- [fuzzdb](https://github.com/fuzzdb-project/fuzzdb) - Siyah kutu uygulama hata enjeksiyonu ve kaynak keşfi için saldırı kalıpları ve temel veriler sözlüğü.
+- [IntruderPayloads](https://github.com/1N3/IntruderPayloads) - Bir koleksiyon Burpsuite Intruder yükleri, BurpBounty yükleri, fuzz listeleri, zararlı dosya yüklemeleri ve web penetrasyon testi metodolojileri ve kontrol listeleri.
+- [fuzz.txt](https://github.com/Bo0oM/fuzz.txt) - Potansiyel olarak tehlikeli dosyalar
+- [fuzzilli](https://github.com/googleprojectzero/fuzzilli) - Bir JavaScript Motor Fuzzlayıcı
+- [fuzzapi](https://github.com/Fuzzapi/fuzzapi) - Fuzzapi, REST API penetrasyon testi için kullanılan ve API_Fuzzer gem'i kullanan bir araç
+- [qsfuzz](https://github.com/ameenmaali/qsfuzz) - qsfuzz (Sorgu Dizisi Fuzzlayıcı), sorgu dizilerini fuzzlamak ve kolayca zafiyetleri tespit etmek için kendi kurallarınızı oluşturmanıza olanak tanır.
+- [vaf](https://github.com/d4rckh/vaf) - Nim diliyle yazılmış çok gelişmiş (web) fuzzlayıcı.
 
 ---
 
 ## Exploitation
 
-Lorem ipsum dolor sit amet
+
 
 ### Command Injection
 
-- [commix](https://github.com/commixproject/commix) - Automated All-in-One OS command injection and exploitation tool.
+- [commix](https://github.com/commixproject/commix) - Otomatikleştirilmiş Hepsi Bir Arada İşletim Sistemi komut enjeksiyonu ve istismar aracı.
 
 ### CORS Misconfiguration
 
-- [Corsy](https://github.com/s0md3v/Corsy) - CORS Misconfiguration Scanner
-- [CORStest](https://github.com/RUB-NDS/CORStest) - A simple CORS misconfiguration scanner
-- [cors-scanner](https://github.com/laconicwolf/cors-scanner) - A multi-threaded scanner that helps identify CORS flaws/misconfigurations
-- [CorsMe](https://github.com/Shivangx01b/CorsMe) - Cross Origin Resource Sharing MisConfiguration Scanner
+- [Corsy](https://github.com/s0md3v/Corsy) - CORS Yanlış Yapılandırma Tarayıcı
+- [CORStest](https://github.com/RUB-NDS/CORStest) - Basit Bir CORS Yanlış Yapılandırma Tarayıcı
+- [cors-scanner](https://github.com/laconicwolf/cors-scanner) - Çoklu iş parçacıklı bir tarayıcı, CORS hatalarını/yapılandırmalarını tespit etmeye yardımcı olur
+- [CorsMe](https://github.com/Shivangx01b/CorsMe) - Kökenler Arası Kaynak Paylaşımı Yanlış Yapılandırma Tarayıcı
+
 
 ### CRLF Injection
 
-- [CRLFsuite](https://github.com/Nefcore/CRLFsuite) - A fast tool specially designed to scan CRLF injection
-- [crlfuzz](https://github.com/dwisiswant0/crlfuzz) - A fast tool to scan CRLF vulnerability written in Go
-- [CRLF-Injection-Scanner](https://github.com/MichaelStott/CRLF-Injection-Scanner) - Command line tool for testing CRLF injection on a list of domains.
-- [Injectus](https://github.com/BountyStrike/Injectus) - CRLF and open redirect fuzzer
+- [CRLFsuite](https://github.com/Nefcore/CRLFsuite) - Özellikle CRLF enjeksiyonunu tarayarak hızlı bir şekilde tasarlanmış bir araç
+- [crlfuzz](https://github.com/dwisiswant0/crlfuzz) - Go diliyle yazılmış, CRLF zafiyetini hızlı bir şekilde taramak için kullanılan bir araç
+- [CRLF-Injection-Scanner](https://github.com/MichaelStott/CRLF-Injection-Scanner) - Bir liste içindeki alan adlarında CRLF enjeksiyonunu test etmek için komut satırı aracı.
+- [Injectus](https://github.com/BountyStrike/Injectus) - CRLF ve açık yönlendirme (open redirect) fuzzlayıcı
+
 
 ### CSRF Injection
 
-- [XSRFProbe](https://github.com/0xInfection/XSRFProbe) -The Prime Cross Site Request Forgery (CSRF) Audit and Exploitation Toolkit.
+- [XSRFProbe](https://github.com/0xInfection/XSRFProbe) - Prime Cross Site Request Forgery (CSRF) Denetim ve Sömürü Aracı.
 
 ### Directory Traversal
 
-- [dotdotpwn](https://github.com/wireghoul/dotdotpwn) - DotDotPwn - The Directory Traversal Fuzzer
-- [FDsploit](https://github.com/chrispetrou/FDsploit) - File Inclusion & Directory Traversal fuzzing, enumeration & exploitation tool.
-- [off-by-slash](https://github.com/bayotop/off-by-slash) - Burp extension to detect alias traversal via NGINX misconfiguration at scale.
-- [liffier](https://github.com/momenbasel/liffier) - tired of manually add dot-dot-slash to your possible path traversal? this short snippet will increment ../ on the URL.
+- [dotdotpwn](https://github.com/wireghoul/dotdotpwn) - DotDotPwn - Dizin Gezintisi Fuzzeri
+- [FDsploit](https://github.com/chrispetrou/FDsploit) - Dosya Dahil Etme ve Dizin Gezintisi fuzzlama, sıralama ve istismar aracı.
+- [off-by-slash](https://github.com/bayotop/off-by-slash) - NGINX yanlış yapılandırma yoluyla takma ad gezinmesini ölçeklendirmek için Burp uzantısı.
+- [liffier](https://github.com/momenbasel/liffier) - Olası yolu kesmek için el ile dot-dot-slash eklemekten sıkıldınız mı? Bu kısa kod parçası URL'de ../'yi artırır.
+
 
 ### File Inclusion
 
-- [liffy](https://github.com/mzfr/liffy) - Local file inclusion exploitation tool
-- [Burp-LFI-tests](https://github.com/Team-Firebugs/Burp-LFI-tests) - Fuzzing for LFI using Burpsuite
-- [LFI-Enum](https://github.com/mthbernardes/LFI-Enum) - Scripts to execute enumeration via LFI
-- [LFISuite](https://github.com/D35m0nd142/LFISuite) - Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner
-- [LFI-files](https://github.com/hussein98d/LFI-files) - Wordlist to bruteforce for LFI
+- [liffy](https://github.com/mzfr/liffy) - Yerel dosya dahil etme istismarı aracı
+- [Burp-LFI-tests](https://github.com/Team-Firebugs/Burp-LFI-tests) - Burpsuite kullanarak LFI için Fuzzing işlemi
+- [LFI-Enum](https://github.com/mthbernardes/LFI-Enum) - Numaralandırmayı LFI kullanarak yürüten betikler
+- [LFISuite](https://github.com/D35m0nd142/LFISuite) - Tamamen Otomatik LFI Sömürücüsü (+ Ters Kabuk) ve Tarayıcı
+- [LFI-files](https://github.com/hussein98d/LFI-files) - LFI için brute force saldırısı yapmak için kelime listesi
+
 
 ### GraphQL Injection
 
-- [inql](https://github.com/doyensec/inql) - InQL - A Burp Extension for GraphQL Security Testing
-- [GraphQLmap](https://github.com/swisskyrepo/GraphQLmap) - GraphQLmap is a scripting engine to interact with a graphql endpoint for pentesting purposes.
-- [shapeshifter](https://github.com/szski/shapeshifter) - GraphQL security testing tool
-- [graphql_beautifier](https://github.com/zidekmat/graphql_beautifier) - Burp Suite extension to help make Graphql request more readable
-- [clairvoyance](https://github.com/nikitastupin/clairvoyance) - Obtain GraphQL API schema despite disabled introspection!
+- [inql](https://github.com/doyensec/inql) - InQL - GraphQL Güvenlik Testi için Bir Burp Eklentisi
+- [GraphQLmap](https://github.com/swisskyrepo/GraphQLmap) - GraphQLmap, pentest amaçları için bir graphql uç noktası ile etkileşimde bulunmak için bir komut dosyası motorudur.
+- [shapeshifter](https://github.com/szski/shapeshifter) - GraphQL güvenlik test aracı
+- [graphql_beautifier](https://github.com/zidekmat/graphql_beautifier) - GraphQL isteğini daha okunabilir hale getirmeye yardımcı olmak için Burp Suite uzantısı
+- [clairvoyance](https://github.com/nikitastupin/clairvoyance) - Devre dışı bırakılmış introspeksiyona rağmen GraphQL API şemasını elde etmek!
+
 
 ### Header Injection
 
-- [headi](https://github.com/mlcsec/headi) - Customisable and automated HTTP header injection.
+- [headi](https://github.com/mlcsec/headi) - Özelleştirilebilir ve otomatik HTTP başlık enjeksiyonu.
+
 
 ### Insecure Deserialization
 
-- [ysoserial](https://github.com/frohoff/ysoserial) - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
-- [GadgetProbe](https://github.com/BishopFox/GadgetProbe) - Probe endpoints consuming Java serialized objects to identify classes, libraries, and library versions on remote Java classpaths.
-- [ysoserial.net](https://github.com/pwntester/ysoserial.net) - Deserialization payload generator for a variety of .NET formatters
-- [phpggc](https://github.com/ambionics/phpggc) - PHPGGC is a library of PHP unserialize() payloads along with a tool to generate them, from command line or programmatically.
+- [ysoserial](https://github.com/frohoff/ysoserial) - Güvensiz Java nesne deserializasyonunu istismar eden yükler üreten bir konsept kanıt aracı.
+- [GadgetProbe](https://github.com/BishopFox/GadgetProbe) - Uzak Java sınıf yollarındaki sınıfları, kütüphaneleri ve kütüphane sürümlerini belirlemek için Java serileştirilmiş nesneleri tüketen uç noktaları sorgulayan bir araç.
+- [ysoserial.net](https://github.com/pwntester/ysoserial.net) - Çeşitli .NET biçimleyiciler için deserializasyon yükü üretici bir araç
+- [phpggc](https://github.com/ambionics/phpggc) - PHPGGC, unserialize() işlevi için PHP yükleri kütüphanesi ve bunları komut satırından veya programlı olarak üreten bir araç.
+
 
 ### Insecure Direct Object References
 
-- [Autorize](https://github.com/Quitten/Autorize) - Automatic authorization enforcement detection extension for burp suite written in Jython developed by Barak Tawily
+- [Autorize](https://github.com/Quitten/Autorize) - Barak Tawily tarafından geliştirilen, Burp Suite için Jython ile yazılmış otomatik yetkilendirme denetimi tespit uzantısı.
+
 
 ### Open Redirect
 
-- [Oralyzer](https://github.com/r0075h3ll/Oralyzer) - Open Redirection Analyzer
-- [Injectus](https://github.com/BountyStrike/Injectus) - CRLF and open redirect fuzzer
-- [dom-red](https://github.com/Naategh/dom-red) - Small script to check a list of domains against open redirect vulnerability
-- [OpenRedireX](https://github.com/devanshbatham/OpenRedireX) - A Fuzzer for OpenRedirect issues
+- [Oralyzer](https://github.com/r0075h3ll/Oralyzer) - Açık Yönlendirme Analiz Aracı
+- [Injectus](https://github.com/BountyStrike/Injectus) - CRLF ve açık yönlendirme (open redirect) fuzzlayıcı
+- [dom-red](https://github.com/Naategh/dom-red) - Açık yönlendirme zafiyetini kontrol etmek için bir alan adı listesini denetleyen küçük bir betik
+- [OpenRedireX](https://github.com/devanshbatham/OpenRedireX) - Açık Yönlendirme sorunları için bir fuzzlayıcı
+
 
 ### Race Condition
 
-- [razzer](https://github.com/compsec-snu/razzer) - A Kernel fuzzer focusing on race bugs
-- [racepwn](https://github.com/racepwn/racepwn) - Race Condition framework
-- [requests-racer](https://github.com/nccgroup/requests-racer) - Small Python library that makes it easy to exploit race conditions in web apps with Requests.
-- [turbo-intruder](https://github.com/PortSwigger/turbo-intruder) - Turbo Intruder is a Burp Suite extension for sending large numbers of HTTP requests and analyzing the results.
-- [race-the-web](https://github.com/TheHackerDev/race-the-web) - Tests for race conditions in web applications. Includes a RESTful API to integrate into a continuous integration pipeline.
+- [razzer](https://github.com/compsec-snu/razzer) - Yarış Koşulu Hatalarına Odaklanan Bir Çekirdek Fuzzer
+- [racepwn](https://github.com/racepwn/racepwn) - Yarış Koşulu Çerçevesi
+- [requests-racer](https://github.com/nccgroup/requests-racer) - Web uygulamalarındaki yarış koşullarını Requests ile kolayca istismar etmeyi sağlayan küçük bir Python kütüphanesi.
+- [turbo-intruder](https://github.com/PortSwigger/turbo-intruder) - Turbo Intruder, büyük sayıda HTTP isteği göndermek ve sonuçları analiz etmek için bir Burp Suite uzantısıdır.
+- [race-the-web](https://github.com/TheHackerDev/race-the-web) - Web uygulamalarındaki yarış koşulları için testler. Sürekli entegrasyon sürecine entegre etmek için RESTful bir API içerir.
 
 ### Request Smuggling
 
-- [http-request-smuggling](https://github.com/anshumanpattnaik/http-request-smuggling) - HTTP Request Smuggling Detection Tool
-- [smuggler](https://github.com/defparam/smuggler) - Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3
-- [h2csmuggler](https://github.com/BishopFox/h2csmuggler) - HTTP Request Smuggling over HTTP/2 Cleartext (h2c)
-- [tiscripts](https://github.com/defparam/tiscripts) - These scripts I use to create Request Smuggling Desync payloads for CLTE and TECL style attacks.
+- [http-request-smuggling](https://github.com/anshumanpattnaik/http-request-smuggling) - HTTP İstek Smuggling Tespit Aracı
+- [smuggler](https://github.com/defparam/smuggler) - Smuggler - Python 3 ile yazılmış bir HTTP İstek Smuggling / Desync test aracı
+- [h2csmuggler](https://github.com/BishopFox/h2csmuggler) - HTTP İstek Smuggling'i HTTP/2 Temiz Metin Üzerinden (h2c) gerçekleştirme
+- [tiscripts](https://github.com/defparam/tiscripts) - Bu betikler, CLTE ve TECL tarzı saldırılar için İstek Smuggling Desync yükleri oluşturmak için kullandığım betikler.
 
 ### Server Side Request Forgery
 
-- [SSRFmap](https://github.com/swisskyrepo/SSRFmap) - Automatic SSRF fuzzer and exploitation tool
-- [Gopherus](https://github.com/tarunkant/Gopherus) - This tool generates gopher link for exploiting SSRF and gaining RCE in various servers
-- [ground-control](https://github.com/jobertabma/ground-control) - A collection of scripts that run on my web server. Mainly for debugging SSRF, blind XSS, and XXE vulnerabilities.
-- [SSRFire](https://github.com/micha3lb3n/SSRFire) - An automated SSRF finder. Just give the domain name and your server and chill! ;) Also has options to find XSS and open redirects
-- [httprebind](https://github.com/daeken/httprebind) - Automatic tool for DNS rebinding-based SSRF attacks
-- [ssrf-sheriff](https://github.com/teknogeek/ssrf-sheriff) - A simple SSRF-testing sheriff written in Go
-- [B-XSSRF](https://github.com/SpiderMate/B-XSSRF) - Toolkit to detect and keep track on Blind XSS, XXE & SSRF
-- [extended-ssrf-search](https://github.com/Damian89/extended-ssrf-search) - Smart ssrf scanner using different methods like parameter brute forcing in post and get...
-- [gaussrf](https://github.com/KathanP19/gaussrf) - Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl and Filter Urls With OpenRedirection or SSRF Parameters.
-- [ssrfDetector](https://github.com/JacobReynolds/ssrfDetector) - Server-side request forgery detector
-- [grafana-ssrf](https://github.com/RandomRobbieBF/grafana-ssrf) - Authenticated SSRF in Grafana
-- [sentrySSRF](https://github.com/xawdxawdx/sentrySSRF) - Tool to searching sentry config on page or in javascript files and check blind SSRF
-- [lorsrf](https://github.com/knassar702/lorsrf) - Bruteforcing on Hidden parameters to find SSRF vulnerability using GET and POST Methods
-- [singularity](https://github.com/nccgroup/singularity) - A DNS rebinding attack framework.
-- [whonow](https://github.com/brannondorsey/whonow) - A "malicious" DNS server for executing DNS Rebinding attacks on the fly (public instance running on rebind.network:53)
-- [dns-rebind-toolkit](https://github.com/brannondorsey/dns-rebind-toolkit) - A front-end JavaScript toolkit for creating DNS rebinding attacks.
-- [dref](https://github.com/FSecureLABS/dref) - DNS Rebinding Exploitation Framework
-- [rbndr](https://github.com/taviso/rbndr) - Simple DNS Rebinding Service
-- [httprebind](https://github.com/daeken/httprebind) - Automatic tool for DNS rebinding-based SSRF attacks
-- [dnsFookup](https://github.com/makuga01/dnsFookup) - DNS rebinding toolkit
+- [SSRFmap](https://github.com/swisskyrepo/SSRFmap) - Otomatik SSRF fuzzlayıcı ve istismar aracı
+- [Gopherus](https://github.com/tarunkant/Gopherus) - Bu araç, çeşitli sunucularda SSRF istismarı ve RCE kazanmak için gopher bağlantısı üretir
+- [ground-control](https://github.com/jobertabma/ground-control) - Web sunucumda çalışan betik koleksiyonu. Temel olarak SSRF, kör XSS ve XXE zafiyetleri için hata ayıklama amacıyla kullanılır.
+- [SSRFire](https://github.com/micha3lb3n/SSRFire) - Otomatik bir SSRF bulucu. Sadece alan adınızı ve sunucunuzu verin ve rahatlayın! ;) Ayrıca XSS ve açık yönlendirmeleri bulma seçenekleri de bulunur
+- [httprebind](https://github.com/daeken/httprebind) - DNS rebind tabanlı SSRF saldırıları için otomatik bir araç
+- [ssrf-sheriff](https://github.com/teknogeek/ssrf-sheriff) - Go ile yazılmış basit bir SSRF test şerifi
+- [B-XSSRF](https://github.com/SpiderMate/B-XSSRF) - Kör XSS, XXE ve SSRF'yi tespit etmek ve izlemek için araç takımı
+- [extended-ssrf-search](https://github.com/Damian89/extended-ssrf-search) - Parametre brute forcing gibi farklı yöntemler kullanarak akıllı bir ssrf tarayıcısı
+- [gaussrf](https://github.com/KathanP19/gaussrf) - Bilinen URL'leri AlienVault's Open Threat Exchange, Wayback Machine ve Common Crawl'dan alır ve OpenRedirection veya SSRF Parametreleri ile URL'leri filtreler.
+- [ssrfDetector](https://github.com/JacobReynolds/ssrfDetector) - Sunucu tarafı istek sahteciliği tespit aracı
+- [grafana-ssrf](https://github.com/RandomRobbieBF/grafana-ssrf) - Grafana'da kimlik doğrulamalı SSRF
+- [sentrySSRF](https://github.com/xawdxawdx/sentrySSRF) - Sentry yapılandırmasını sayfada veya javascript dosyalarında aramak ve kör SSRF kontrol etmek için araç
+- [lorsrf](https://github.com/knassar702/lorsrf) - SSRF zafiyeti bulmak için Gizli parametreler üzerinde GET ve POST yöntemlerini kullanarak brute force yapar
+- [singularity](https://github.com/nccgroup/singularity) - Bir DNS rebinding saldırı çerçevesi.
+- [whonow](https://github.com/brannondorsey/whonow) - Hava'da DNS Rebinding saldırıları gerçekleştirmek için bir "zararlı" DNS sunucusu (rebind.network:53 üzerinde çalışan genel bir örnek mevcut)
+- [dns-rebind-toolkit](https://github.com/brannondorsey/dns-rebind-toolkit) - DNS rebind saldırıları oluşturmak için ön yüz JavaScript araç takımı.
+- [dref](https://github.com/FSecureLABS/dref) - DNS Rebinding İstismarı Çerçevesi
+- [rbndr](https://github.com/taviso/rbndr) - Basit DNS Rebinding Hizmeti
+- [httprebind](https://github.com/daeken/httprebind) - DNS rebind tabanlı SSRF saldırıları için otomatik bir araç
+- [dnsFookup](https://github.com/makuga01/dnsFookup) - DNS rebind araç takımı
+
 
 ### SQL Injection
 
-- [sqlmap](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection and database takeover tool
-- [NoSQLMap](https://github.com/codingo/NoSQLMap) - Automated NoSQL database enumeration and web application exploitation tool.
-- [SQLiScanner](https://github.com/0xbug/SQLiScanner) - Automatic SQL injection with Charles and sqlmap api
-- [SleuthQL](https://github.com/RhinoSecurityLabs/SleuthQL) - Python3 Burp History parsing tool to discover potential SQL injection points. To be used in tandem with SQLmap.
-- [mssqlproxy](https://github.com/blackarrowsec/mssqlproxy) - mssqlproxy is a toolkit aimed to perform lateral movement in restricted environments through a compromised Microsoft SQL Server via socket reuse
-- [sqli-hunter](https://github.com/zt2/sqli-hunter) - SQLi-Hunter is a simple HTTP / HTTPS proxy server and a SQLMAP API wrapper that makes digging SQLi easy.
-- [waybackSqliScanner](https://github.com/ghostlulzhacks/waybackSqliScanner) - Gather urls from wayback machine then test each GET parameter for sql injection.
-- [ESC](https://github.com/NetSPI/ESC) - Evil SQL Client (ESC) is an interactive .NET SQL console client with enhanced SQL Server discovery, access, and data exfiltration features.
-- [mssqli-duet](https://github.com/Keramas/mssqli-duet) - SQL injection script for MSSQL that extracts domain users from an Active Directory environment based on RID bruteforcing
-- [burp-to-sqlmap](https://github.com/Miladkhoshdel/burp-to-sqlmap) - Performing SQLInjection test on Burp Suite Bulk Requests using SQLMap
-- [BurpSQLTruncSanner](https://github.com/InitRoot/BurpSQLTruncSanner) - Messy BurpSuite plugin for SQL Truncation vulnerabilities.
-- [andor](https://github.com/sadicann/andor) - Blind SQL Injection Tool with Golang
-- [Blinder](https://github.com/mhaskar/Blinder) - A python library to automate time-based blind SQL injection
-- [sqliv](https://github.com/the-robot/sqliv) - massive SQL injection vulnerability scanner
-- [nosqli](https://github.com/Charlie-belmer/nosqli) - NoSql Injection CLI tool, for finding vulnerable websites using MongoDB.
+- [sqlmap](https://github.com/sqlmapproject/sqlmap) - Otomatik SQL enjeksiyonu ve veritabanı ele geçirme aracı
+- [NoSQLMap](https://github.com/codingo/NoSQLMap) - Otomatik NoSQL veritabanı sayısal sıralama ve web uygulama istismarı aracı
+- [SQLiScanner](https://github.com/0xbug/SQLiScanner) - Charles ve sqlmap API ile otomatik SQL enjeksiyonu
+- [SleuthQL](https://github.com/RhinoSecurityLabs/SleuthQL) - Potansiyel SQL enjeksiyon noktalarını keşfetmek için Python3 Burp Geçmiş analiz aracı. SQLmap ile birlikte kullanılması amaçlanmıştır.
+- [mssqlproxy](https://github.com/blackarrowsec/mssqlproxy) - mssqlproxy, soket yeniden kullanımı yoluyla kısıtlanmış ortamlarda yanal hareketi gerçekleştirmek için hedef alınmış bir Microsoft SQL Sunucusu üzerinden çalışan bir araç takımıdır.
+- [sqli-hunter](https://github.com/zt2/sqli-hunter) - SQLi-Hunter, SQLi kazmaktan zorlanmadan yapan basit bir HTTP / HTTPS proxy sunucusu ve SQLMAP API sarmalayıcısıdır.
+- [waybackSqliScanner](https://github.com/ghostlulzhacks/waybackSqliScanner) - Wayback Machine'den URL'leri toplayarak her GET parametresini SQL enjeksiyonu açısından test eder.
+- [ESC](https://github.com/NetSPI/ESC) - Evil SQL Client (ESC), gelişmiş SQL Server keşfi, erişimi ve veri çıkarma özelliklerine sahip etkileşimli bir .NET SQL konsol istemcisidir.
+- [mssqli-duet](https://github.com/Keramas/mssqli-duet) - RID brute forcing temelli bir Active Directory ortamından etki edilmiş Microsoft SQL Server üzerinden etkileşimli hareket yapmak için bir SQL enjeksiyon komut dosyası
+- [burp-to-sqlmap](https://github.com/Miladkhoshdel/burp-to-sqlmap) - SQLMap kullanarak Burp Suite Toplu İstekler üzerinde SQLInjection testi gerçekleştirme
+- [BurpSQLTruncSanner](https://github.com/InitRoot/BurpSQLTruncSanner) - Karmaşık bir BurpSuite eklentisi olan SQL Kesme açıklıkları için.
+- [andor](https://github.com/sadicann/andor) - Golang ile yazılmış Kör SQL Enjeksiyon Aracı
+- [Blinder](https://github.com/mhaskar/Blinder) - Zaman tabanlı kör SQL enjeksiyonunu otomatikleştiren bir Python kütüphanesi
+- [sqliv](https://github.com/the-robot/sqliv) - Büyük çaplı SQL enjeksiyon zafiyet tarama aracı
+- [nosqli](https://github.com/Charlie-belmer/nosqli) - MongoDB kullanan zafiyetli web sitelerini bulmak için NoSQL Enjeksiyonu CLI aracı
+
 
 ### XSS Injection
 
-- [XSStrike](https://github.com/s0md3v/XSStrike) - Most advanced XSS scanner.
-- [xssor2](https://github.com/evilcos/xssor2) - XSS'OR - Hack with JavaScript.
-- [xsscrapy](https://github.com/DanMcInerney/xsscrapy) - XSS spider - 66/66 wavsep XSS detected
-- [sleepy-puppy](https://github.com/Netflix-Skunkworks/sleepy-puppy) - Sleepy Puppy XSS Payload Management Framework
-- [ezXSS](https://github.com/ssl/ezXSS) - ezXSS is an easy way for penetration testers and bug bounty hunters to test (blind) Cross Site Scripting.
-- [xsshunter](https://github.com/mandatoryprogrammer/xsshunter) - The XSS Hunter service - a portable version of XSSHunter.com
-- [dalfox](https://github.com/hahwul/dalfox) - DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang
-- [xsser](https://github.com/epsylon/xsser) - Cross Site "Scripter" (aka XSSer) is an automatic -framework- to detect, exploit and report XSS vulnerabilities in web-based applications.
-- [XSpear](https://github.com/hahwul/XSpear) - Powerfull XSS Scanning and Parameter analysis tool&gem
-- [weaponised-XSS-payloads](https://github.com/hakluke/weaponised-XSS-payloads) - XSS payloads designed to turn alert(1) into P1
-- [tracy](https://github.com/nccgroup/tracy) - A tool designed to assist with finding all sinks and sources of a web application and display these results in a digestible manner.
-- [ground-control](https://github.com/jobertabma/ground-control) - A collection of scripts that run on my web server. Mainly for debugging SSRF, blind XSS, and XXE vulnerabilities.
-- [xssValidator](https://github.com/nVisium/xssValidator) - This is a burp intruder extender that is designed for automation and validation of XSS vulnerabilities.
-- [JSShell](https://github.com/Den1al/JSShell) - An interactive multi-user web JS shell
-- [bXSS](https://github.com/LewisArdern/bXSS) - bXSS is a utility which can be used by bug hunters and organizations to identify Blind Cross-Site Scripting.
-- [docem](https://github.com/whitel1st/docem) - Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE on steroids)
-- [XSS-Radar](https://github.com/bugbountyforum/XSS-Radar) - XSS Radar is a tool that detects parameters and fuzzes them for cross-site scripting vulnerabilities.
-- [BruteXSS](https://github.com/rajeshmajumdar/BruteXSS) - BruteXSS is a tool written in python simply to find XSS vulnerabilities in web application.
-- [findom-xss](https://github.com/dwisiswant0/findom-xss) - A fast DOM based XSS vulnerability scanner with simplicity.
-- [domdig](https://github.com/fcavallarin/domdig) - DOM XSS scanner for Single Page Applications
-- [femida](https://github.com/wish-i-was/femida) - Automated blind-xss search for Burp Suite
-- [B-XSSRF](https://github.com/SpiderMate/B-XSSRF) - Toolkit to detect and keep track on Blind XSS, XXE & SSRF
-- [domxssscanner](https://github.com/yaph/domxssscanner) - DOMXSS Scanner is an online tool to scan source code for DOM based XSS vulnerabilities
-- [xsshunter_client](https://github.com/mandatoryprogrammer/xsshunter_client) - Correlated injection proxy tool for XSS Hunter
-- [extended-xss-search](https://github.com/Damian89/extended-xss-search) - A better version of my xssfinder tool - scans for different types of xss on a list of urls.
-- [xssmap](https://github.com/Jewel591/xssmap) - XSSMap 是一款基于 Python3 开发用于检测 XSS 漏洞的工具
-- [XSSCon](https://github.com/menkrep1337/XSSCon) - XSSCon: Simple XSS Scanner tool
-- [BitBlinder](https://github.com/BitTheByte/BitBlinder) - BurpSuite extension to inject custom cross-site scripting payloads on every form/request submitted to detect blind XSS vulnerabilities
-- [XSSOauthPersistence](https://github.com/dxa4481/XSSOauthPersistence) - Maintaining account persistence via XSS and Oauth
-- [shadow-workers](https://github.com/shadow-workers/shadow-workers) - Shadow Workers is a free and open source C2 and proxy designed for penetration testers to help in the exploitation of XSS and malicious Service Workers (SW)
-- [rexsser](https://github.com/profmoriarity/rexsser) - This is a burp plugin that extracts keywords from response using regexes and test for reflected XSS on the target scope.
-- [xss-flare](https://github.com/EgeBalci/xss-flare) - XSS hunter on cloudflare serverless workers.
-- [Xss-Sql-Fuzz](https://github.com/jiangsir404/Xss-Sql-Fuzz) - burpsuite 插件对GP所有参数(过滤特殊参数)一键自动添加xss sql payload 进行fuzz
-- [vaya-ciego-nen](https://github.com/hipotermia/vaya-ciego-nen) - Detect, manage and exploit Blind Cross-site scripting (XSS) vulnerabilities.
-- [dom-based-xss-finder](https://github.com/AsaiKen/dom-based-xss-finder) - Chrome extension that finds DOM based XSS vulnerabilities
-- [XSSTerminal](https://github.com/machinexa2/XSSTerminal) - Develop your own XSS Payload using interactive typing
-- [xss2png](https://github.com/vavkamil/xss2png) - PNG IDAT chunks XSS payload generator
-- [XSSwagger](https://github.com/vavkamil/XSSwagger) - A simple Swagger-ui scanner that can detect old versions vulnerable to various XSS attacks
+- [XSStrike](https://github.com/s0md3v/XSStrike) - En gelişmiş XSS tarama aracı.
+- [xssor2](https://github.com/evilcos/xssor2) - XSS'OR - JavaScript ile hackleme.
+- [xsscrapy](https://github.com/DanMcInerney/xsscrapy) - XSS örümceği - 66/66 wavsep XSS tespit edildi
+- [sleepy-puppy](https://github.com/Netflix-Skunkworks/sleepy-puppy) - Sleepy Puppy XSS Yük Yönetim Çerçevesi
+- [ezXSS](https://github.com/ssl/ezXSS) - ezXSS, zafiyet avcıları ve ödül avcıları için (kör) Çapraz Site Komut Dosyası test etmek için kolay bir yoldur.
+- [xsshunter](https://github.com/mandatoryprogrammer/xsshunter) - XSS Hunter hizmeti - XSSHunter.com'un taşınabilir bir sürümü
+- [dalfox](https://github.com/hahwul/dalfox) - DalFox(Finder Of XSS) / Parametre Analizi ve golang temelli XSS Tarama aracı
+- [xsser](https://github.com/epsylon/xsser) - Cross Site "Scripter" (yani XSSer), web tabanlı uygulamalardaki XSS zafiyetlerini tespit etmek, istismar etmek ve raporlamak için otomatik bir -çerçeve- aracıdır.
+- [XSpear](https://github.com/hahwul/XSpear) - Güçlü XSS Tarama ve Parametre analizi aracı ve modülü
+- [weaponised-XSS-payloads](https://github.com/hakluke/weaponised-XSS-payloads) - alert(1)'i P1'e dönüştürmek için tasarlanmış XSS yükleri
+- [tracy](https://github.com/nccgroup/tracy) - Web uygulamasının tüm çıkışlarını ve kaynaklarını bulmaya yardımcı olması için tasarlanmış bir araç ve sonuçları anlaşılır bir şekilde gösterir.
+- [ground-control](https://github.com/jobertabma/ground-control) - Web sunucumda çalışan betik koleksiyonu. Temel olarak SSRF, kör XSS ve XXE zafiyetleri için hata ayıklama amacıyla kullanılır.
+- [xssValidator](https://github.com/nVisium/xssValidator) - Bu, otomasyon ve XSS zafiyetlerinin doğrulanması için tasarlanmış bir burp intruder uzantısıdır.
+- [JSShell](https://github.com/Den1al/JSShell) - Etkileşimli çok kullanıcılı web JS kabuğu
+- [bXSS](https://github.com/LewisArdern/bXSS) - bXSS, hata avcıları ve organizasyonlar tarafından Kör Çapraz Site Komut Dosyası tespiti yapmak için kullanılabilen bir yardımcı programdır.
+- [docem](https://github.com/whitel1st/docem) - docx,odt,pptx,etc (OXML_XEE steroids üzerinde) içine XXE ve XSS yüklerini gömmek için araç
+- [XSS-Radar](https://github.com/bugbountyforum/XSS-Radar) - XSS Radar, parametreleri tespit eder ve bunları çapraz site komut dosyası açıklıkları için taramaya tabi tutar.
+- [BruteXSS](https://github.com/rajeshmajumdar/BruteXSS) - BruteXSS, web uygulamasındaki XSS zafiyetlerini bulmak için yazılmış basit bir python aracıdır.
+- [findom-xss](https://github.com/dwisiswant0/findom-xss) - Basit bir DOM tabanlı XSS zafiyet tarayıcısı.
+- [domdig](https://github.com/fcavallarin/domdig) - Tek Sayfalı Uygulamalar için DOM XSS tarayıcısı
+- [femida](https://github.com/wish-i-was/femida) - Burp Suite için otomatik kör-xss araması
+- [B-XSSRF](https://github.com/SpiderMate/B-XSSRF) - Kör XSS, XXE ve SSRF tespiti ve izlemesi için araç takımı
+- [domxssscanner](https://github.com/yaph/domxssscanner) - DOMXSS Tarayıcı, DOM tabanlı XSS zafiyetleri için kaynak kodunu taramak için çevrimiçi bir araçtır.
+- [xsshunter_client](https://github.com/mandatoryprogrammer/xsshunter_client) - XSSHunter için eşlenmiş enjeksiyon proxy aracı
+- [extended-xss-search](https://github.com/Damian89/extended-xss-search) - xssfinder aracımın daha iyi bir versiyonu - bir URL listesinde farklı türde XSS taraması yapar.
+- [xssmap](https://github.com/Jewel591/xssmap) - XSSMap, XSS zafiyetlerini tespit etmek için geliştirilmiş Python3 tabanlı bir araçtır.
+- [XSSCon](https://github.com/menkrep1337/XSSCon) - XSSCon: Basit bir XSS Tarama aracı
+- [BitBlinder](https://github.com/BitTheByte/BitBlinder) - Çapraz Site Komut Dosyası açıklıklarını tespit etmek için her form/istek gönderildiğinde özel çapraz site komut dosyası yükleri enjekte etmek için BurpSuite uzantısı
+- [XSSOauthPersistence](https://github.com/dxa4481/XSSOauthPersistence) - XSS ve Oauth ile hesap kalıcılığını sürdürmek
+- [shadow-workers](https://github.com/shadow-workers/shadow-workers) - Shadow Workers, XSS ve kötü amaçlı Servis İşçileri (SW) istismarı konusunda sızdırmazlık testçilerine yardımcı olması için tasarlanmış ücretsiz ve açık kaynaklı bir C2 ve proxy'dir
+- [rexsser](https://github.com/profmoriarity/rexsser) - Bu, yanıtın içinden anahtar kelimeleri çıkaran ve hedef kapsamında yansıtılan XSS'i test eden bir burp eklentisidir.
+- [xss-flare](https://github.com/EgeBalci/xss-flare) - Cloudflare sunucusundaki XSS avcısı.
+- [Xss-Sql-Fuzz](https://github.com/jiangsir404/Xss-Sql-Fuzz) - burpsuite eklentisi GP tüm parametrelerini (özel parametreleri filtrelemek) tek tıklamayla xss sql yüklemeleri eklemek için Fuzz yapar
+- [vaya-ciego-nen](https://github.com/hipotermia/vaya-ciego-nen) - Kör Çapraz Site Komut Dosyası (XSS) açıklıklarını tespit etme, yönetme ve istismar etme.
+- [dom-based-xss-finder](https://github.com/AsaiKen/dom-based-xss-finder) - DOM tabanlı XSS zafiyetlerini bulan Chrome uzantısı
+- [XSSTerminal](https://github.com/machinexa2/XSSTerminal) - Etkileşimli yazma kullanarak kendi XSS Yükünüzü geliştirin
+- [xss2png](https://github.com/vavkamil/xss2png) - PNG IDAT parçaları XSS yükü üretici
+- [XSSwagger](https://github.com/vavkamil/XSSwagger) - Eski sürümleri XSS saldırılarına karşı savunmasız olan basit bir Swagger-ui tarayıcısı
+
 
 ### XXE Injection
 
-- [ground-control](https://github.com/jobertabma/ground-control) - A collection of scripts that run on my web server. Mainly for debugging SSRF, blind XSS, and XXE vulnerabilities.
-- [dtd-finder](https://github.com/GoSecure/dtd-finder) - List DTDs and generate XXE payloads using those local DTDs.
-- [docem](https://github.com/whitel1st/docem) - Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE on steroids)
-- [xxeserv](https://github.com/staaldraad/xxeserv) - A mini webserver with FTP support for XXE payloads
-- [xxexploiter](https://github.com/luisfontes19/xxexploiter) - Tool to help exploit XXE vulnerabilities
-- [B-XSSRF](https://github.com/SpiderMate/B-XSSRF) - Toolkit to detect and keep track on Blind XSS, XXE & SSRF
-- [XXEinjector](https://github.com/enjoiz/XXEinjector) - Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods.
-- [oxml_xxe](https://github.com/BuffaloWill/oxml_xxe) - A tool for embedding XXE/XML exploits into different filetypes
-- [metahttp](https://github.com/vp777/metahttp) - A bash script that automates the scanning of a target network for HTTP resources through XXE
+- [ground-control](https://github.com/jobertabma/ground-control) - SSRF, kör XSS ve XXE zafiyetlerini hata ayıklama için kullanılan betik koleksiyonu.
+- [dtd-finder](https://github.com/GoSecure/dtd-finder) - DTD'leri listeler ve bu yerel DTD'ler kullanılarak XXE yükleri oluşturur.
+- [docem](https://github.com/whitel1st/docem) - docx, odt, pptx gibi dosya türlerine XXE ve XSS yükleri gömme aracı (OXML_XEE güçlendirilmiş hali).
+- [xxeserv](https://github.com/staaldraad/xxeserv) - XXE yükleri için FTP desteği olan mini bir web sunucusu.
+- [xxexploiter](https://github.com/luisfontes19/xxexploiter) - XXE zafiyetlerini istismar etmeye yardımcı olan araç.
+- [B-XSSRF](https://github.com/SpiderMate/B-XSSRF) - Kör XSS, XXE ve SSRF tespiti ve izlemesi için araç takımı.
 
 ---
 
 ## Miscellaneous
 
-Lorem ipsum dolor sit amet
+
 
 ### Passwords
 
-- [thc-hydra](https://github.com/vanhauser-thc/thc-hydra) - Hydra is a parallelized login cracker which supports numerous protocols to attack.
-- [DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet) - One place for all the default credentials to assist the Blue/Red teamers activities on finding devices with default password
-- [changeme](https://github.com/ztgrace/changeme) - A default credential scanner.
-- [BruteX](https://github.com/1N3/BruteX) - Automatically brute force all services running on a target.
-- [patator](https://github.com/lanjelot/patator) - Patator is a multi-purpose brute-forcer, with a modular design and a flexible usage.
+- [thc-hydra](https://github.com/vanhauser-thc/thc-hydra) - Hydra, çok sayıda protokolü hedef almak için destek sunan paralel bir giriş kırıcıdır.
+- [DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet) - Tüm varsayılan kimlik bilgilerini bir araya getiren bir kaynak; varsayılan şifreli cihazları bulmada Mavi/Kırmızı takımın yardımcı olur.
+- [changeme](https://github.com/ztgrace/changeme) - Varsayılan kimlik bilgilerini taramak için bir araç.
+- [BruteX](https://github.com/1N3/BruteX) - Hedefte çalışan tüm hizmetleri otomatik olarak kaba kuvvet saldırısı yapmak için kullanılır.
+- [patator](https://github.com/lanjelot/patator) - Patator, modüler bir tasarıma ve esnek bir kullanıma sahip çok amaçlı bir kaba kuvvet saldırısı aracıdır.
+
 
 ### Secrets
 
-- [git-secrets](https://github.com/awslabs/git-secrets) - Prevents you from committing secrets and credentials into git repositories
-- [gitleaks](https://github.com/zricethezav/gitleaks) - Scan git repos (or files) for secrets using regex and entropy
-- [truffleHog](https://github.com/dxa4481/truffleHog) - Searches through git repositories for high entropy strings and secrets, digging deep into commit history
-- [gitGraber](https://github.com/hisxo/gitGraber) - gitGraber: monitor GitHub to search and find sensitive data in real time for different online services
-- [talisman](https://github.com/thoughtworks/talisman) - By hooking into the pre-push hook provided by Git, Talisman validates the outgoing changeset for things that look suspicious - such as authorization tokens and private keys.
-- [GitGot](https://github.com/BishopFox/GitGot) - Semi-automated, feedback-driven tool to rapidly search through troves of public data on GitHub for sensitive secrets.
-- [git-all-secrets](https://github.com/anshumanbh/git-all-secrets) - A tool to capture all the git secrets by leveraging multiple open source git searching tools
-- [github-search](https://github.com/gwen001/github-search) - Tools to perform basic search on GitHub.
-- [git-vuln-finder](https://github.com/cve-search/git-vuln-finder) - Finding potential software vulnerabilities from git commit messages
-- [commit-stream](https://github.com/x1sec/commit-stream) - #OSINT tool for finding Github repositories by extracting commit logs in real time from the Github event API
-- [gitrob](https://github.com/michenriksen/gitrob) - Reconnaissance tool for GitHub organizations
-- [repo-supervisor](https://github.com/auth0/repo-supervisor) - Scan your code for security misconfiguration, search for passwords and secrets.
-- [GitMiner](https://github.com/UnkL4b/GitMiner) - Tool for advanced mining for content on Github
-- [shhgit](https://github.com/eth0izzle/shhgit) - Ah shhgit! Find GitHub secrets in real time
-- [detect-secrets](https://github.com/Yelp/detect-secrets) - An enterprise friendly way of detecting and preventing secrets in code.
-- [rusty-hog](https://github.com/newrelic/rusty-hog) - A suite of secret scanners built in Rust for performance. Based on TruffleHog
-- [whispers](https://github.com/Skyscanner/whispers) - Identify hardcoded secrets and dangerous behaviours
-- [yar](https://github.com/nielsing/yar) - Yar is a tool for plunderin' organizations, users and/or repositories.
-- [dufflebag](https://github.com/BishopFox/dufflebag) - Search exposed EBS volumes for secrets
-- [secret-bridge](https://github.com/duo-labs/secret-bridge) - Monitors Github for leaked secrets
-- [earlybird](https://github.com/americanexpress/earlybird) - EarlyBird is a sensitive data detection tool capable of scanning source code repositories for clear text password violations, PII, outdated cryptography methods, key files and more.
+### Secret Detection
+
+- [git-secrets](https://github.com/awslabs/git-secrets) - Sizi git depolarına gizli bilgi ve kimlik bilgilerini taşımanızı engeller.
+- [gitleaks](https://github.com/zricethezav/gitleaks) - Gizli bilgileri regex ve entropi kullanarak tarayan bir git depolarını (veya dosyalarını) tarar.
+- [truffleHog](https://github.com/dxa4481/truffleHog) - Yüksek entropili dizeleri ve gizli bilgileri git depolarında arar, taahhüt geçmişine derinlemesine iner.
+- [gitGraber](https://github.com/hisxo/gitGraber) - gitGraber: GitHub'ı izler, farklı çevrimiçi hizmetlerde hassas veri arar ve gerçek zamanlı olarak bulur.
+- [talisman](https://github.com/thoughtworks/talisman) - Git tarafından sağlanan ön itme kanca noktasına entegre olarak, Talisman çıkış yapmış değişiklik setini yetkisiz gibi görünen şeyler açısından doğrular - örneğin yetkilendirme belirteçleri ve özel anahtarlar.
+- [GitGot](https://github.com/BishopFox/GitGot) - Yarı otomatik, geribildirim odaklı bir araç olan GitGot, hassas gizli bilgileri hızlı bir şekilde aramak için GitHub üzerindeki genel veri kalabalıklarını tarar.
+- [git-all-secrets](https://github.com/anshumanbh/git-all-secrets) - Çeşitli açık kaynaklı git arama araçlarını kullanarak tüm git gizli bilgilerini yakalamak için bir araç.
+- [github-search](https://github.com/gwen001/github-search) - GitHub üzerinde temel arama yapmak için araçlar.
+- [git-vuln-finder](https://github.com/cve-search/git-vuln-finder) - Olası yazılım güvenlik açıklarını git taahhüt mesajlarından bulma.
+- [commit-stream](https://github.com/x1sec/commit-stream) - Github etkinlik API'sinden taahhüt günlüklerini gerçek zamanlı olarak çıkararak Github depolarını bulmak için bir OSINT aracı.
+- [gitrob](https://github.com/michenriksen/gitrob) - GitHub organizasyonları için keşif aracı
+- [repo-supervisor](https://github.com/auth0/repo-supervisor) - Kodunuzu güvenlik yanlış yapılandırmaları, parolaları ve gizli bilgileri tarar.
+- [GitMiner](https://github.com/UnkL4b/GitMiner) - İleri madencilik için bir araçtır ve GitHub üzerinde içerik madenciliği yapar.
+- [shhgit](https://github.com/eth0izzle/shhgit) - Ah shhgit! Gerçek zamanlı olarak GitHub gizli bilgileri bulur.
+- [detect-secrets](https://github.com/Yelp/detect-secrets) - Kod içindeki gizli bilgileri algılamanın ve önlemenin işletme dostu bir yoludur.
+- [rusty-hog](https://github.com/newrelic/rusty-hog) - Performans için Rust dilinde inşa edilmiş bir dizi gizli tarama aracı. TruffleHog'a dayalıdır.
+- [whispers](https://github.com/Skyscanner/whispers) - Sabitlenmiş gizli bilgileri ve tehlikeli davranışları belirleme
+- [yar](https://github.com/nielsing/yar) - Örgütleri, kullanıcıları ve/veya depoları yağmalamak için bir araçtır.
+- [dufflebag](https://github.com/BishopFox/dufflebag) - Açık EBS hacimlerini gizli bilgiler için tarar
+- [secret-bridge](https://github.com/duo-labs/secret-bridge) - Sızan gizli bilgileri izler
+- [earlybird](https://github.com/americanexpress/earlybird) - Erken Kuş, kaynak kodu depolarını tarar ve açık metin parola ihlalleri, PII, eski şifreleme yöntemleri, anahtar dosyaları ve daha fazlasını bulma yeteneğine sahip bir hassas veri tespit aracıdır.
 - [Trufflehog-Chrome-Extension](https://github.com/trufflesecurity/Trufflehog-Chrome-Extension) - Trufflehog-Chrome-Extension
-- [noseyparker](https://github.com/praetorian-inc/noseyparker) - Nosey Parker is a command-line program that finds secrets and sensitive information in textual data and Git history. 
+- [noseyparker](https://github.com/praetorian-inc/noseyparker) - Nosey Parker, metin verilerinde ve Git geçmişinde gizli bilgileri ve hassas bilgileri bulan komut satırı programı.
 
 ### Git
 
-- [GitTools](https://github.com/internetwache/GitTools) - A repository with 3 tools for pwn'ing websites with .git repositories available
-- [gitjacker](https://github.com/liamg/gitjacker) - Leak git repositories from misconfigured websites
-- [git-dumper](https://github.com/arthaud/git-dumper) - A tool to dump a git repository from a website
-- [GitHunter](https://github.com/digininja/GitHunter) - A tool for searching a Git repository for interesting content
-- [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG...
-- [Gato (Github Attack TOolkit)](https://github.com/praetorian-inc/gato) - GitHub Self-Hosted Runner Enumeration and Attack Tool 
+- [GitTools](https://github.com/internetwache/GitTools) - Pwn'ing için 3 araç içeren bir depo: .git depoları olan web siteleri
+- [gitjacker](https://github.com/liamg/gitjacker) - Yanlış yapılandırılmış web sitelerinden git depolarını sızdırır
+- [git-dumper](https://github.com/arthaud/git-dumper) - Bir web sitesinden git deposunu döken bir araç
+- [GitHunter](https://github.com/digininja/GitHunter) - İlginç içerik aramak için bir Git deposunu arayan bir araç
+- [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Web erişilebilir (dağıtılmış) sürüm kontrol sistemlerini yırtar: SVN/GIT/HG...
+- [Gato (Github Attack TOolkit)](https://github.com/praetorian-inc/gato) - GitHub Kendi Barındıran Çalıştırıcı Numaraları ve Saldırı Aracı
 
 ### Buckets
 
-- [S3Scanner](https://github.com/sa7mon/S3Scanner) - Scan for open AWS S3 buckets and dump the contents
-- [AWSBucketDump](https://github.com/jordanpotti/AWSBucketDump) - Security Tool to Look For Interesting Files in S3 Buckets
-- [CloudScraper](https://github.com/jordanpotti/CloudScraper) - CloudScraper: Tool to enumerate targets in search of cloud resources. S3 Buckets, Azure Blobs, Digital Ocean Storage Space.
-- [s3viewer](https://github.com/SharonBrizinov/s3viewer) - Publicly Open Amazon AWS S3 Bucket Viewer
-- [festin](https://github.com/cr0hn/festin) - FestIn - S3 Bucket Weakness Discovery
-- [s3reverse](https://github.com/hahwul/s3reverse) - The format of various s3 buckets is convert in one format. for bugbounty and security testing.
-- [mass-s3-bucket-tester](https://github.com/random-robbie/mass-s3-bucket-tester) - This tests a list of s3 buckets to see if they have dir listings enabled or if they are uploadable
-- [S3BucketList](https://github.com/AlecBlance/S3BucketList) - Firefox plugin that lists Amazon S3 Buckets found in requests
-- [dirlstr](https://github.com/cybercdh/dirlstr) - Finds Directory Listings or open S3 buckets from a list of URLs
-- [Burp-AnonymousCloud](https://github.com/codewatchorg/Burp-AnonymousCloud) - Burp extension that performs a passive scan to identify cloud buckets and then test them for publicly accessible vulnerabilities
-- [kicks3](https://github.com/abuvanth/kicks3) - S3 bucket finder from html,js and bucket misconfiguration testing tool
-- [2tearsinabucket](https://github.com/Revenant40/2tearsinabucket) - Enumerate s3 buckets for a specific target.
-- [s3_objects_check](https://github.com/nccgroup/s3_objects_check) - Whitebox evaluation of effective S3 object permissions, to identify publicly accessible files.
-- [s3tk](https://github.com/ankane/s3tk) - A security toolkit for Amazon S3
-- [CloudBrute](https://github.com/0xsha/CloudBrute) - Awesome cloud enumerator
-- [s3cario](https://github.com/0xspade/s3cario) - This tool will get the CNAME first if it's a valid Amazon s3 bucket and if it's not, it will try to check if the domain is a bucket name.
-- [S3Cruze](https://github.com/JR0ch17/S3Cruze) - All-in-one AWS S3 bucket tool for pentesters.
+- [S3Scanner](https://github.com/sa7mon/S3Scanner) - Açık AWS S3 kovalarını tarar ve içeriğini döker.
+- [AWSBucketDump](https://github.com/jordanpotti/AWSBucketDump) - S3 Kovalarında İlginç Dosyaları Aramak İçin Güvenlik Aracı.
+- [CloudScraper](https://github.com/jordanpotti/CloudScraper) - BulutScraper: Bulut kaynaklarını aramak için hedefleri sıralama aracı. S3 Kovaları, Azure Blokları, Digital Ocean Depolama Alanı.
+- [s3viewer](https://github.com/SharonBrizinov/s3viewer) - Genel olarak açık Amazon AWS S3 Kova Görüntüleyicisi.
+- [festin](https://github.com/cr0hn/festin) - FestIn - S3 Kova Zayıflığı Keşfi
+- [s3reverse](https://github.com/hahwul/s3reverse) - Farklı S3 kovalarının formatını tek bir formata dönüştürür; hata avı ve güvenlik testleri için kullanılır.
+- [mass-s3-bucket-tester](https://github.com/random-robbie/mass-s3-bucket-tester) - Belirli bir listeyi tarayarak S3 kovalarını test eder, dizin listeleme etkin mi veya yüklenebilir mi diye kontrol eder.
+- [S3BucketList](https://github.com/AlecBlance/S3BucketList) - Taleplerde bulunan Amazon S3 Kovalarını listeleyen Firefox eklentisi.
+- [dirlstr](https://github.com/cybercdh/dirlstr) - Bir URL listesindeki dizin listelerini veya açık S3 kovalarını bulur.
+- [Burp-AnonymousCloud](https://github.com/codewatchorg/Burp-AnonymousCloud) - Bulut kovalarını belirlemek ve ardından bunları kamu erişilebilir zafiyetler için test etmek için pasif tarama yapan Burp eklentisi.
+- [kicks3](https://github.com/abuvanth/kicks3) - HTML, JS ve kova yapılandırma testi aracılığıyla S3 kovalarını bulma aracı.
+- [2tearsinabucket](https://github.com/Revenant40/2tearsinabucket) - Belirli bir hedef için S3 kovalarını sıralar.
+- [s3_objects_check](https://github.com/nccgroup/s3_objects_check) - Etkili S3 nesne izinlerinin beyaz kutu değerlendirmesi; kamu erişilebilir dosyaları tanımlamak için kullanılır.
+- [s3tk](https://github.com/ankane/s3tk) - Amazon S3 için bir güvenlik araç takımı
+- [CloudBrute](https://github.com/0xsha/CloudBrute) - Harika bir bulut numaralandırıcı
+- [s3cario](https://github.com/0xspade/s3cario) - Bu araç, önceki bir Amazon S3 kovası olup olmadığını kontrol eder ve ardından değilse etki alanının bir kova adı olup olmadığını kontrol etmeye çalışır.
+- [S3Cruze](https://github.com/JR0ch17/S3Cruze) - Pentester'lar için her şeyi içeren bir AWS S3 kova aracı.
+
 
 ### CMS
 
-- [wpscan](https://github.com/wpscanteam/wpscan) - WPScan is a free, for non-commercial use, black box WordPress security scanner
-- [WPSpider](https://github.com/cyc10n3/WPSpider) - A centralized dashboard for running and scheduling WordPress scans powered by wpscan utility.
-- [wprecon](https://github.com/blackcrw/wprecon) - Wordpress Recon
-- [CMSmap](https://github.com/Dionach/CMSmap) -  CMSmap is a python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs.
-- [joomscan](https://github.com/OWASP/joomscan) - OWASP Joomla Vulnerability Scanner Project
-- [pyfiscan](https://github.com/fgeek/pyfiscan) - Free web-application vulnerability and version scanner
+- [wpscan](https://github.com/wpscanteam/wpscan) - WPScan, ticari olmayan kullanım için ücretsiz olan, siyah kutu WordPress güvenlik tarayıcısı
+- [WPSpider](https://github.com/cyc10n3/WPSpider) - wpscan yardımcı programı tarafından desteklenen WordPress taramalarını çalıştırmak ve zamanlamak için merkezi bir gösterge paneli.
+- [wprecon](https://github.com/blackcrw/wprecon) - Wordpress Keşfi
+- [CMSmap](https://github.com/Dionach/CMSmap) - CMSmap, en popüler CMS'lerin güvenlik açıklarını tespit etme sürecini otomatikleştiren bir python açık kaynak CMS tarayıcısıdır.
+- [joomscan](https://github.com/OWASP/joomscan) - OWASP Joomla Güvenlik Açığı Tarayıcı Projesi
+- [pyfiscan](https://github.com/fgeek/pyfiscan) - Ücretsiz web uygulama açığı ve sürüm tarayıcısı
+
 
 ### JSON Web Token
 
-- [jwt_tool](https://github.com/ticarpi/jwt_tool) - A toolkit for testing, tweaking and cracking JSON Web Tokens
-- [c-jwt-cracker](https://github.com/brendan-rius/c-jwt-cracker) - JWT brute force cracker written in C
-- [jwt-heartbreaker](https://github.com/wallarm/jwt-heartbreaker) - The Burp extension to check JWT (JSON Web Tokens) for using keys from known from public sources
-- [jwtear](https://github.com/KINGSABRI/jwtear) - Modular command-line tool to parse, create and manipulate JWT tokens for hackers
-- [jwt-key-id-injector](https://github.com/dariusztytko/jwt-key-id-injector) - Simple python script to check against hypothetical JWT vulnerability.
-- [jwt-hack](https://github.com/hahwul/jwt-hack) - jwt-hack is tool for hacking / security testing to JWT.
-- [jwt-cracker](https://github.com/lmammino/jwt-cracker) - Simple HS256 JWT token brute force cracker
+- [jwt_tool](https://github.com/ticarpi/jwt_tool) - JSON Web Token'ları test etmek, ayarlamak ve çözmek için bir araç takımı
+- [c-jwt-cracker](https://github.com/brendan-rius/c-jwt-cracker) - C dilinde yazılmış JWT brute force kırıcı
+- [jwt-heartbreaker](https://github.com/wallarm/jwt-heartbreaker) - Bilinen genel kaynaklardan gelen anahtarlarla JWT (JSON Web Token) kontrolü yapmak için Burp uzantısı
+- [jwtear](https://github.com/KINGSABRI/jwtear) - Hackerlar için JWT belgelerini ayrıştırmak, oluşturmak ve manipüle etmek için modüler bir komut satırı aracı
+- [jwt-key-id-injector](https://github.com/dariusztytko/jwt-key-id-injector) - Hipotetik JWT güvenlik açıklarına karşı kontrol etmek için basit bir Python betiği
+- [jwt-hack](https://github.com/hahwul/jwt-hack) - JWT'leri (JSON Web Token) hacklemek ve güvenlik testi yapmak için bir araç
+- [jwt-cracker](https://github.com/lmammino/jwt-cracker) - Basit HS256 JWT belge kaba kuvvet kırıcısı
 
 ### postMessage
 
-- [postMessage-tracker](https://github.com/fransr/postMessage-tracker) - A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon
-- [PostMessage_Fuzz_Tool](https://github.com/kiranreddyrebel/PostMessage_Fuzz_Tool) - #BugBounty #BugBounty Tools #WebDeveloper Tool
-
+- [postMessage-tracker](https://github.com/fransr/postMessage-tracker) - postMessage kullanımını (URL, etki alanı ve yığın) CORS ile kaydederek ve genişletme simgesi olarak hem kayıt hem de görsel olarak izlemek için bir Chrome Eklentisi
+- [PostMessage_Fuzz_Tool](https://github.com/kiranreddyrebel/PostMessage_Fuzz_Tool) - #BugBounty #BugBounty Araçları #WebDeveloper Aracı
+  
 ### Subdomain Takeover
 
-- [subjack](https://github.com/haccer/subjack) - Subdomain Takeover tool written in Go
-- [SubOver](https://github.com/Ice3man543/SubOver) - A Powerful Subdomain Takeover Tool
-- [autoSubTakeover](https://github.com/JordyZomer/autoSubTakeover) - A tool used to check if a CNAME resolves to the scope address. If the CNAME resolves to a non-scope address it might be worth checking out if subdomain takeover is possible.
-- [NSBrute](https://github.com/shivsahni/NSBrute) - Python utility to takeover domains vulnerable to AWS NS Takeover
-- [can-i-take-over-xyz](https://github.com/EdOverflow/can-i-take-over-xyz) - "Can I take over XYZ?" — a list of services and how to claim (sub)domains with dangling DNS records.
-- [cnames](https://github.com/cybercdh/cnames) - take a list of resolved subdomains and output any corresponding CNAMES en masse.
-- [subHijack](https://github.com/vavkamil/old-repos-backup/tree/master/subHijack-master) - Hijacking forgotten & misconfigured subdomains
-- [tko-subs](https://github.com/anshumanbh/tko-subs) - A tool that can help detect and takeover subdomains with dead DNS records
-- [HostileSubBruteforcer](https://github.com/nahamsec/HostileSubBruteforcer) - This app will bruteforce for exisiting subdomains and provide information if the 3rd party host has been properly setup.
-- [second-order](https://github.com/mhmdiaa/second-order) - Second-order subdomain takeover scanner
-- [takeover](https://github.com/mzfr/takeover) - A tool for testing subdomain takeover possibilities at a mass scale.
-- [dnsReaper](https://github.com/punk-security/dnsReaper) - DNS Reaper is yet another sub-domain takeover tool, but with an emphasis on accuracy, speed and the number of signatures in our arsenal!
+- [subjack](https://github.com/haccer/subjack) - Go dilinde yazılmış Alt Alan Ele Geçirme aracı
+- [SubOver](https://github.com/Ice3man543/SubOver) - Güçlü bir Alt Alan Ele Geçirme aracı
+- [autoSubTakeover](https://github.com/JordyZomer/autoSubTakeover) - Bir CNAME'nin kapsam adresine çözünüp çözünmediğini kontrol etmek için kullanılan bir araç. CNAME, kapsam dışı bir adrese çözünüyorsa, alt alan ele geçirme olasılığını kontrol etmek mantıklı olabilir.
+- [NSBrute](https://github.com/shivsahni/NSBrute) - AWS NS Ele Geçirme açığına karşı savunmasız alanları ele geçirmek için kullanılan Python aracı
+- [can-i-take-over-xyz](https://github.com/EdOverflow/can-i-take-over-xyz) - "XYZ'yi ele geçirebilir miyim?" — hizmetlerin listesi ve sallanan DNS kayıtlarıyla (alt)alanları nasıl talep edeceğiniz.
+- [cnames](https://github.com/cybercdh/cnames) - Çözülen alt alan listesini alır ve toplu olarak ilgili CNAME'leri döndürür.
+- [subHijack](https://github.com/vavkamil/old-repos-backup/tree/master/subHijack-master) - Unutulmuş ve yanlış yapılandırılmış alt alan ele geçirme
+- [tko-subs](https://github.com/anshumanbh/tko-subs) - Ölü DNS kayıtlarıyla alt alan ele geçirme olasılığını tespit etmeye ve ele geçirmeye yardımcı olan bir araç
+- [HostileSubBruteforcer](https://github.com/nahamsec/HostileSubBruteforcer) - Bu uygulama mevcut alt alanları bruteforce eder ve 3. tarafın ana bilgisayarın doğru şekilde ayarlandığını kontrol eder.
+- [second-order](https://github.com/mhmdiaa/second-order) - İkinci aşama alt alan ele geçirme taraması
+- [takeover](https://github.com/mzfr/takeover) - Alt alan ele geçirme olasılıklarını kitle çekiminde test etmek için bir araç
+- [dnsReaper](https://github.com/punk-security/dnsReaper) - DNS Reaper, başka bir alt alan ele geçirme aracıdır, ancak hassasiyet, hız ve silah deposundaki imza sayısı üzerinde vurgu yapar!
 
 ### Vulnerability Scanners
 
-- [nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
-- [Sn1per](https://github.com/1N3/Sn1per) - Automated pentest framework for offensive security experts
+- [nuclei](https://github.com/projectdiscovery/nuclei) - Şablonlara dayalı hedef odaklı tarama için hızlı bir araç olan Nuclei, büyük ölçüde genişletilebilirlik ve kullanım kolaylığı sunar.
+- [Sn1per](https://github.com/1N3/Sn1per) - Saldırgan güvenlik uzmanları için otomatik pentest çerçevesi
 - [metasploit-framework](https://github.com/rapid7/metasploit-framework) - Metasploit Framework
-- [nikto](https://github.com/sullo/nikto) - Nikto web server scanner
-- [arachni](https://github.com/Arachni/arachni) - Web Application Security Scanner Framework
-- [jaeles](https://github.com/jaeles-project/jaeles) - The Swiss Army knife for automated Web Application Testing
-- [retire.js](https://github.com/RetireJS/retire.js) - scanner detecting the use of JavaScript libraries with known vulnerabilities
-- [Osmedeus](https://github.com/j3ssie/Osmedeus) - Fully automated offensive security framework for reconnaissance and vulnerability scanning
-- [getsploit](https://github.com/vulnersCom/getsploit) - Command line utility for searching and downloading exploits
-- [flan](https://github.com/cloudflare/flan) - A pretty sweet vulnerability scanner
-- [Findsploit](https://github.com/1N3/Findsploit) - Find exploits in local and online databases instantly
-- [BlackWidow](https://github.com/1N3/BlackWidow) - A Python based web application scanner to gather OSINT and fuzz for OWASP vulnerabilities on a target website.
-- [backslash-powered-scanner](https://github.com/PortSwigger/backslash-powered-scanner) - Finds unknown classes of injection vulnerabilities
-- [Eagle](https://github.com/BitTheByte/Eagle) - Multithreaded Plugin based vulnerability scanner for mass detection of web-based applications vulnerabilities
-- [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more...
-- [OWASP ZAP](https://github.com/zaproxy/zaproxy) -  World’s most popular free web security tools and is actively maintained by a dedicated international team of volunteers
-- [SSTImap](https://github.com/vladko312/SSTImap) -  SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
+- [nikto](https://github.com/sullo/nikto) - Nikto web sunucusu tarayıcı
+- [arachni](https://github.com/Arachni/arachni) - Web Uygulama Güvenliği Tarayıcı Çerçevesi
+- [jaeles](https://github.com/jaeles-project/jaeles) - Otomatik Web Uygulama Testi için İsviçre Çakısı
+- [retire.js](https://github.com/RetireJS/retire.js) - Bilinen güvenlik açıkları olan JavaScript kütüphanelerini tespit eden tarayıcı
+- [Osmedeus](https://github.com/j3ssie/Osmedeus) - Keşif ve zafiyet taraması için tamamen otomatikleştirilmiş saldırgan güvenlik çerçevesi
+- [getsploit](https://github.com/vulnersCom/getsploit) - Saldırıları aramak ve indirmek için komut satırı yardımcı programı
+- [flan](https://github.com/cloudflare/flan) - Oldukça güzel bir zafiyet tarayıcı
+- [Findsploit](https://github.com/1N3/Findsploit) - Yerel ve çevrimiçi veritabanlarında hızlıca saldırıları bulun
+- [BlackWidow](https://github.com/1N3/BlackWidow) - Hedef web sitesinde OWASP zafiyetlerini toplamak ve fuzz yapmak için Python tabanlı bir web uygulama tarayıcı
+- [backslash-powered-scanner](https://github.com/PortSwigger/backslash-powered-scanner) - Bilinmeyen enjeksiyon açıkları sınıflarını bulur
+- [Eagle](https://github.com/BitTheByte/Eagle) - Kit tabanlı çoklu iş parçacıklı zafiyet tarayıcı, web tabanlı uygulama zafiyetlerini kitle tespiti için
+- [cariddi](https://github.com/edoardottt/cariddi) - Alan listesi alır, URL'leri gezinir ve uç noktaları, sırları, API anahtarlarını, dosya uzantılarını, belirteçleri vb. taramak için tarar
+- [OWASP ZAP](https://github.com/zaproxy/zaproxy) - Dünya genelinde en popüler ücretsiz web güvenliği araçlarından biri olan OWASP ZAP ve uluslararası gönüllüler tarafından aktif olarak bakımı yapılır
+- [SSTImap](https://github.com/vladko312/SSTImap) - SSTImap, web sitelerini Kod Enjeksiyonu ve Sunucu Tarafı Şablon Enjeksiyonu zafiyetleri için kontrol edebilen ve onları istismar edebilen bir penetrasyon testi yazılımıdır.
 - 
 ### Uncategorized
 
-- [JSONBee](https://github.com/zigoo0/JSONBee) - A ready to use JSONP endpoints/payloads to help bypass content security policy (CSP) of different websites.
-- [CyberChef](https://github.com/gchq/CyberChef) - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
-- []() -
-- [bountyplz](https://github.com/fransr/bountyplz) - Automated security reporting from markdown templates (HackerOne and Bugcrowd are currently the platforms supported)
-- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - A list of useful payloads and bypass for Web Application Security and Pentest/CTF
-- [bounty-targets-data](https://github.com/arkadiyt/bounty-targets-data) - This repo contains hourly-updated data dumps of bug bounty platform scopes (like Hackerone/Bugcrowd/Intigriti/etc) that are eligible for reports
-- [android-security-awesome](https://github.com/ashishb/android-security-awesome) - A collection of android security related resources
-- [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - An effort to build a single place for all useful android and iOS security related stuff.
-- [awesome-vulnerable-apps](https://github.com/vavkamil/awesome-vulnerable-apps) - Awesome Vulnerable Applications
-- [XFFenum](https://github.com/vavkamil/XFFenum) - X-Forwarded-For [403 forbidden] enumeration
-- [httpx](https://github.com/projectdiscovery/httpx) - httpx is a fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads.
-- [csprecon](https://github.com/edoardottt/csprecon) - Discover new target domains using Content Security Policy 
+- [JSONBee](https://github.com/zigoo0/JSONBee) - Farklı web sitelerinin içerik güvenlik politikasını (CSP) aşmak için kullanılmaya hazır JSONP uç noktaları/payloadları.
+- [CyberChef](https://github.com/gchq/CyberChef) - Siber İsviçre Çakısı - şifreleme, kodlama, sıkıştırma ve veri analizi için web uygulaması
+- [bountyplz](https://github.com/fransr/bountyplz) - Markdown şablonlarından otomatik güvenlik raporlama (HackerOne ve Bugcrowd şu anda desteklenen platformlardır)
+- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - Web Uygulama Güvenliği ve Pentest/CTF için kullanışlı payload ve bypass listesi
+- [bounty-targets-data](https://github.com/arkadiyt/bounty-targets-data) - Bu depo, bildirime uygun olan günlük güncellenen veri dökümlerini içerir (Hackerone/Bugcrowd/Intigriti gibi ödül avı platformlarının kapsamları)
+- [android-security-awesome](https://github.com/ashishb/android-security-awesome) - Android güvenliği ile ilgili kaynakların bir koleksiyonu
+- [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - Tüm kullanışlı android ve iOS güvenlik ile ilgili kaynakları tek bir yerde toplama çabası.
+- [awesome-vulnerable-apps](https://github.com/vavkamil/awesome-vulnerable-apps) - Harika Zafiyetli Uygulamalar
+- [XFFenum](https://github.com/vavkamil/XFFenum) - X-Forwarded-For [403 forbidden] taraması
+- [httpx](https://github.com/projectdiscovery/httpx) - httpx, yeniden denenir http kütüphanesi kullanarak birden fazla prob yapma olanağı sağlayan hızlı ve çok amaçlı bir HTTP aracıdır. Sonuç güvenilirliğini artırılmış iş parçacıkları ile korumak için tasarlanmıştır.
+- [csprecon](https://github.com/edoardottt/csprecon) - İçerik Güvenlik Politikası kullanarak yeni hedef alanlar keşfetme
 
 ---
 
